@@ -23,7 +23,7 @@ def input_to_index(user_input)
 end
 
 #move determines where a player will move
-def move(board, (input_to_index(user_input), character = "X")
+def move(board, input_to_index(user_input), character = "X")
     board[input_to_index(user_input)] = character
 end
 
